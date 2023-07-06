@@ -1,6 +1,7 @@
 # Application files
 .env
 node_modules
+build
 
 # Folder view configuration files
 .DS_Store

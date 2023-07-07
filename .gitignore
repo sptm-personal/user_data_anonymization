@@ -2,6 +2,7 @@
 .env
 node_modules
 build
+coverage
 
 # Folder view configuration files
 .DS_Store

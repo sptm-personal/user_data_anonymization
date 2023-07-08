@@ -24,7 +24,7 @@ const config = {
   // collectCoverageFrom: undefined,
 
   // The directory where Jest should output its coverage files
-  coverageDirectory: "coverage",
+  coverageDirectory: 'coverage',
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
@@ -41,6 +41,7 @@ const config = {
   //   "lcov",
   //   "clover"
   // ],
+  coverageReporters: ['json-summary']
 
   // An object that configures minimum threshold enforcement for coverage results
   // coverageThreshold: undefined,

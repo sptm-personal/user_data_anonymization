@@ -1,7 +1,7 @@
-import { App } from './modules/App.class';
+import { App } from '../modules/App.class';
 
-jest.mock('./models/CustomerModel');
-import { CustomerModel } from './models/CustomerModel';
+jest.mock('../models/CustomerModel');
+import { CustomerModel } from '../models/CustomerModel';
 
 describe('App', () => {
   beforeEach(() => {
